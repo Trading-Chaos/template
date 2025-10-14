@@ -1,0 +1,37 @@
+# Виртуальное окружение
+chaos_env/
+env/
+venv/
+
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Данные
+data/
+*.csv
+*.parquet
+*.feather
+
+# Логи
+*.log
+logs/
+
+# IDE
+.idea/
+
+# Файлы окружения
+.env
+
+# Кэш
+__pycache__/
+*.pyc
